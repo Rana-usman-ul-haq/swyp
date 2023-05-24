@@ -642,7 +642,7 @@ contract SWYP is ERC20, Ownable {
 
     mapping (address => bool) public isBlackListed;
     bool public _isTradeOpen = true;
-    uint256 public _maxTransactionLimit = 100000000 * 10 ** decimals();
+    uint256 public _maxTransactionLimit = 10000000000 * 10 ** decimals();
     mapping (address => bool) public isAntiWhaleExempt;
 
 
